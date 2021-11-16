@@ -182,13 +182,13 @@ a {
 .about__content {
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
 .about-text {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .about-img {
@@ -202,6 +202,7 @@ a {
 .service {
     display: flex;
     flex-direction: column;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -227,14 +228,8 @@ a {
 }
 
 .service__item {
-    display: inline-grid;
-    width: 70%;
-    text-align: center;
-}
-
-.service__item__parent {
     display: grid;
-    grid-template-rows: 500px 500px;
+    grid-template-rows: 200px 200px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -247,9 +242,8 @@ a {
 }
 
 .service__item-img1 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80px;
+    margin: 0 auto;
+    width: 140px;
 }
 
 .service__item2 {
@@ -260,9 +254,9 @@ a {
     flex-direction: row;
 }
 
-.service__item-img2 {
-    width: 80px;
-    margin-left: 30px;
+.service__item-img {
+    width: 140px;
+    margin-left: 20px;
 }
 
 .service__item3 {
@@ -273,25 +267,43 @@ a {
     flex-direction: row;
 }
 
-.service__item-img3 {
-    width: 80px;
-    margin-left: 30px;
+.service__item-content1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.service__item-ttl1 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service__item-text1 {
+    color: #fff;
+    font-size: 14px;
+    margin: 10px 30px;
+    line-height: 20px;
 }
 
 .service__item-ttl {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
+    margin: 10px;
 }
 
 .service__item-text {
     color: #fff;
-    font-size: 12px;
-    margin: 30px;
+    font-size: 14px;
+    margin: 10px;
+    line-height: 20px;
 }
 
 .service__item-content {
-    margin-top: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .blog {
@@ -304,9 +316,8 @@ a {
 .blog__main {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .blog__ttl-en {
@@ -324,7 +335,6 @@ a {
 
 .blog__item {
     display: flex;
-    justify-content: center;
 }
 
 .card {
@@ -332,6 +342,7 @@ a {
     margin: 30px 0;
     background-color: #fff;
     border-radius: 10px;
+    overflow: hidden;
     /*上左右の角が丸くならない*/
 }
 
@@ -407,6 +418,7 @@ a {
 .company__group {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     width: 50%;
 }
 .company__ttl {
@@ -452,7 +464,6 @@ a {
 
 .company__topic {
     display: flex;
-    margin: 20px auto;
 }
 
 .company__topic-img1 {
@@ -476,6 +487,7 @@ a {
 
 .company__topic-img img {
     width: 100%;
+    object-fit: cover;
 }
 
 .footer {
