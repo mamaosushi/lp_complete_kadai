@@ -202,21 +202,15 @@ a {
 .service {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     margin: 0 auto;
-=======
->>>>>>> origin/main
 }
 
 .service__ttl {
     font-size: 18px;
     font-weight: bolder;
     margin-bottom: 20px;
-<<<<<<< HEAD
     display: inline-block;
     /*ここをinline-block要素にして、.service__itemとあわせて中央寄せにしたい*/
-=======
->>>>>>> origin/main
 }
 
 .service__ttl-en {
@@ -233,13 +227,8 @@ a {
 }
 
 .service__item {
-<<<<<<< HEAD
     display: inline-grid;
     width: 70%;
-=======
-    display: grid;
-    margin: 30px 200px;
->>>>>>> origin/main
     text-align: center;
 }
 
@@ -335,21 +324,15 @@ a {
 
 .blog__item {
     display: flex;
-<<<<<<< HEAD
     justify-content: center;
-=======
->>>>>>> origin/main
 }
 
 .card {
     width: 200px;
     margin: 30px 0;
-<<<<<<< HEAD
     background-color: #fff;
     border-radius: 10px;
     /*上左右の角が丸くならない*/
-=======
->>>>>>> origin/main
 }
 
 .card:not(:last-child) {
@@ -358,11 +341,6 @@ a {
     
 .card-img {
     position: relative;
-<<<<<<< HEAD
-=======
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
->>>>>>> origin/main
 }
 
 .card-img img {
@@ -474,31 +452,17 @@ a {
 
 .company__topic {
     display: flex;
-<<<<<<< HEAD
     margin: 20px auto;
-=======
-    justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
->>>>>>> origin/main
 }
 
 .company__topic-img1 {
     width: 50%;
     position: relative;
-<<<<<<< HEAD
-=======
-    margin:30px 0 30px 50px;
->>>>>>> origin/main
 }
 
 .company__topic-img2 {
     width: 50%;
     position: relative;
-<<<<<<< HEAD
-=======
-    margin: 30px 50px 30px 0;
->>>>>>> origin/main
 }
 
 .company__topic-img-ttl1 , .company__topic-img-ttl2 {
