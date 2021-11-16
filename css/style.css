@@ -40,9 +40,7 @@ a {
     margin: 30px;
 }
 
-.main__top {
-    margin: 0 50px ;
-}
+
 
 .main__top-view {
     position: relative;
@@ -117,22 +115,21 @@ a {
 }
 
 .news__table {
-    border-collapse: collapse;
+    list-style: none;
     width: 100%;
     font-size: 14px;
+    border-bottom: 2px solid #b9b9b9;
 }
 
 .news-date , .news-text{
-    border-bottom: 1px solid #b9b9b9;
     text-align: left;
     padding: 20px 10px;
 }
 
 .news-name {
-    border-bottom: 1px solid #b9b9b9;
+    text-align: center;
     padding: 20px 0;
-    margin-left: 0;
-    margin-right: 0;
+    width: 30%;
 }
 
 .news-btn {
@@ -146,18 +143,23 @@ a {
     font-size: 13px;
 }
 
+.news-line {
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid #b9b9b9 ;
+}
+
 .news-line:first-child {
     border-top: 2px solid #b9b9b9;
 }
 
 .news-line:last-child {
-    border-bottom: 2px solid #b9b9b9;
-    height: 30px;
+    margin-bottom: 20px;
 }
 
 .about {
     background-color: #f1eeee;
-    margin: 30px 50px;
+    margin: 30px auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -182,13 +184,15 @@ a {
 .about__content {
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin: 30px 40px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .about-text {
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 13px;
+    line-height: 20px;
+    width: 40%;
 }
 
 .about-img {
@@ -203,7 +207,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 70%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .service__ttl {
@@ -308,7 +312,7 @@ a {
 
 .blog {
     background-color: #f1eeee;
-    margin: 30px 50px;
+    margin: 50px auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -464,9 +468,8 @@ a {
 
 .company__topic {
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
     font-size: 0;
+    margin-top: 30px;
 }
 
 .company__topic-img1 {
